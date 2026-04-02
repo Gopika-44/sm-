@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('https://m.media-amazon.com/images/I/7136JG1hEOL._AC_UF894,1000_QL80_.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 28px;
+    color: orange;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.search-box input {
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    padding: 7px 15px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content h1 span {
+    color: orange;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.join-btn {
+    background: orange;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-box {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    background: white;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid orange;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.link {
+    text-align: center;
+    font-size: 14px;
+}
+
+.link a {
+    color: orange;
+    text-decoration: none;
+}
+
+.liw {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons i {
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
